@@ -12,8 +12,6 @@ public class ex3 {
             if (entrada != null) {
                 
                 int n = Integer.parseInt(entrada);
-                
-                
                 if (n <= 0) {
                     JOptionPane.showMessageDialog(null,
                             "Digite valores maiores que zero!", "Número inválido!", JOptionPane.WARNING_MESSAGE);
